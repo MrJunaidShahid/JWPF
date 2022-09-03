@@ -5,7 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-    </Grid>
+        Title="C# WPF Tutorial - By Junaid Shahid" Height="250" Width="400">
+    <StackPanel x:Name = "stack" Background = "Transparent">
+        <Menu>
+            <MenuItem Header = "File" >
+                <MenuItem Header = "New" Command = "New" />
+                <MenuItem Header = "Open" Command = "Open" />
+            </MenuItem>
+            <MenuItem Header = "View" >
+                <MenuItem Header = "Properties" Command = "Properties" />
+            </MenuItem>
+            <MenuItem Header = "Help" >
+                <MenuItem Header = "Print" Command = "Print" />
+            </MenuItem>
+        </Menu>
+
+    </StackPanel>
 </Window>
